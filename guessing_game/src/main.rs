@@ -1,15 +1,22 @@
-use std::io;
+use std:id
+
 
 fn main() {
 
-    println!("Guess the number!");
-    println!("Please Input your guess : ");
+    println!("guess the number")
+    println!("Enter your guess : ")
 
-    let mut guess = String::new();
+    let mut guess = String::new();   // creates a new empty instace of a string 
+    
     io::stdin()
         .read_line(&mut guess)
-        .expect("Failed to read line");
+        .expect("Failed to read the line");
+    
+    
 
-    println!("You guessed : {guess}");
+
+
+
+
 
 }
